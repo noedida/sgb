@@ -9,7 +9,6 @@ namespace BE.Clients.Controllers.API
 {
     [Route(Router.UriDevolucionLibro.Prefijo)]
     [ApiController]
-    [Authorize]
     public class DevolucionLibroController : Controller
     {
         private readonly ILogger<DevolucionLibroController> _logger;

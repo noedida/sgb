@@ -9,7 +9,6 @@ namespace BE.Clients.Controllers.API
 {
     [Route(Router.UriPrestamoLibro.Prefijo)]
     [ApiController]
-    [Authorize]
     public class PrestamoLibroController : Controller
     {
         private readonly ILogger<PrestamoLibroController> _logger;
