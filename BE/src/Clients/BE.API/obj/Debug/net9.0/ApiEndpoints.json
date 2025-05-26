@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "BE.Clients.Controllers.API.DevolucionLibroController",
+    "Method": "DevolucionLibro",
+    "RelativePath": "api/devolucionlibro/devolucionlibro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oDevolucionLibroRequest",
+        "Type": "BE.Models.Request.DevolucionLibroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Clients.Controllers.API.PrestamoLibroController",
+    "Method": "AprobarPrestamo",
+    "RelativePath": "api/prestamolibro/aprobacionprestamolibro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oAprobacionPrestamoRequest",
+        "Type": "BE.Models.Request.AprobacionPrestamoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Clients.Controllers.API.PrestamoLibroController",
+    "Method": "RegistrarSolicitudPrestamo",
+    "RelativePath": "api/prestamolibro/solicitudprestamolibro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oSolicitudPrestamoRequest",
+        "Type": "BE.Models.Request.SolicitudPrestamoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

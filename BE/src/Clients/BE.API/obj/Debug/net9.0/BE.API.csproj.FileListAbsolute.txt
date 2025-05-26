@@ -102,3 +102,5 @@ E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Clients\BE.API\obj\Debug\net9
 E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Clients\BE.API\obj\Debug\net9.0\BE.API.pdb
 E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Clients\BE.API\obj\Debug\net9.0\BE.API.genruntimeconfig.cache
 E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Clients\BE.API\obj\Debug\net9.0\ref\BE.API.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Clients\BE.API\obj\Debug\net9.0\BE.API.sourcelink.json
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Clients\BE.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

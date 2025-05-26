@@ -13,3 +13,4 @@ E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain.Contract\obj
 E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain.Contract\obj\Debug\net8.0\refint\BE.Domain.Contract.dll
 E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain.Contract\obj\Debug\net8.0\BE.Domain.Contract.pdb
 E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain.Contract\obj\Debug\net8.0\ref\BE.Domain.Contract.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain.Contract\obj\Debug\net8.0\BE.Domain.Contract.sourcelink.json

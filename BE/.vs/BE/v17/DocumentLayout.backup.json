@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\clients\\be.api\\controllers\\api\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|solutionrelative:src\\clients\\be.api\\controllers\\api\\prestamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\clients\\be.api\\controllers\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|solutionrelative:src\\clients\\be.api\\controllers\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\clients\\be.api\\controllers\\api\\devolucionlibrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|solutionrelative:src\\clients\\be.api\\controllers\\api\\devolucionlibrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\clients\\be.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|solutionrelative:src\\clients\\be.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\clients\\be.api\\security\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{521FB67D-8A9B-4E75-9BB7-82864DED84F2}|src\\Clients\\BE.API\\BE.API.csproj|solutionrelative:src\\clients\\be.api\\security\\generatetokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE52EF7-C70D-410A-9BB0-0304C5938F08}|src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\infrastructure\\be.infrastructure.sqlserver\\class\\sqlcommandextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE52EF7-C70D-410A-9BB0-0304C5938F08}|src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj|solutionrelative:src\\infrastructure\\be.infrastructure.sqlserver\\class\\sqlcommandextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE52EF7-C70D-410A-9BB0-0304C5938F08}|src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\infrastructure\\be.infrastructure.sqlserver\\class\\sqlparameteritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE52EF7-C70D-410A-9BB0-0304C5938F08}|src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj|solutionrelative:src\\infrastructure\\be.infrastructure.sqlserver\\class\\sqlparameteritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE52EF7-C70D-410A-9BB0-0304C5938F08}|src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\infrastructure\\be.infrastructure.sqlserver\\class\\sqlhelperws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE52EF7-C70D-410A-9BB0-0304C5938F08}|src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj|solutionrelative:src\\infrastructure\\be.infrastructure.sqlserver\\class\\sqlhelperws.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9DC0EA-5386-4B68-8BA8-199B91B5E587}|src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\repository\\be.repository.contract\\idevolucionlibrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9DC0EA-5386-4B68-8BA8-199B91B5E587}|src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj|solutionrelative:src\\repository\\be.repository.contract\\idevolucionlibrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9DC0EA-5386-4B68-8BA8-199B91B5E587}|src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\repository\\be.repository.contract\\iprestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9DC0EA-5386-4B68-8BA8-199B91B5E587}|src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj|solutionrelative:src\\repository\\be.repository.contract\\iprestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659C435B-96D8-4CF4-B023-C19DF1CC6F3B}|src\\Domain\\BE.Domain\\BE.Domain.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\domain\\be.domain\\prestamodomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659C435B-96D8-4CF4-B023-C19DF1CC6F3B}|src\\Domain\\BE.Domain\\BE.Domain.csproj|solutionrelative:src\\domain\\be.domain\\prestamodomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6DCB1A-5621-4CD2-86D2-0A17748A2E6D}|src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\domain\\be.domain.contract\\idevolucionlibrodomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6DCB1A-5621-4CD2-86D2-0A17748A2E6D}|src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj|solutionrelative:src\\domain\\be.domain.contract\\idevolucionlibrodomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6DCB1A-5621-4CD2-86D2-0A17748A2E6D}|src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\domain\\be.domain.contract\\iprestamodomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6DCB1A-5621-4CD2-86D2-0A17748A2E6D}|src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj|solutionrelative:src\\domain\\be.domain.contract\\iprestamodomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B145B766-81DC-460B-9788-02C42D357949}|src\\Repository\\BE.Repository\\BE.Repository.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\repository\\be.repository\\devolucionlibrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B145B766-81DC-460B-9788-02C42D357949}|src\\Repository\\BE.Repository\\BE.Repository.csproj|solutionrelative:src\\repository\\be.repository\\devolucionlibrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B145B766-81DC-460B-9788-02C42D357949}|src\\Repository\\BE.Repository\\BE.Repository.csproj|e:\\noe\\cas 2025\\atlactic-city\\sg_biblioteca\\be\\src\\repository\\be.repository\\prestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B145B766-81DC-460B-9788-02C42D357949}|src\\Repository\\BE.Repository\\BE.Repository.csproj|solutionrelative:src\\repository\\be.repository\\prestamorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrestamoController.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Controllers\\API\\PrestamoController.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BE.API\\Controllers\\API\\PrestamoController.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Controllers\\API\\PrestamoController.cs",
+              "RelativeToolTip": "src\\Clients\\BE.API\\Controllers\\API\\PrestamoController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:07:27.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BE.API\\Program.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Program.cs",
+              "RelativeToolTip": "src\\Clients\\BE.API\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:03:11.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DevolucionLibroController.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Controllers\\API\\DevolucionLibroController.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BE.API\\Controllers\\API\\DevolucionLibroController.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Controllers\\API\\DevolucionLibroController.cs",
+              "RelativeToolTip": "src\\Clients\\BE.API\\Controllers\\API\\DevolucionLibroController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:58:04.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Route.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Controllers\\Route.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BE.API\\Controllers\\Route.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Controllers\\Route.cs",
+              "RelativeToolTip": "src\\Clients\\BE.API\\Controllers\\Route.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA8wBUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:57:59.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenerateTokenJwt.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Security\\GenerateTokenJwt.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BE.API\\Security\\GenerateTokenJwt.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\Security\\GenerateTokenJwt.cs",
+              "RelativeToolTip": "src\\Clients\\BE.API\\Security\\GenerateTokenJwt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:56:53.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SqlParameterItem.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlParameterItem.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlParameterItem.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlParameterItem.cs",
+              "RelativeToolTip": "src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlParameterItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:51:37.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqlCommandExtensions.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlCommandExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlCommandExtensions.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlCommandExtensions.cs",
+              "RelativeToolTip": "src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlCommandExtensions.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:47:07.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SqlHelperWS.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlHelperWS.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlHelperWS.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlHelperWS.cs",
+              "RelativeToolTip": "src\\Infrastructure\\BE.Infrastructure.SqlServer\\Class\\SqlHelperWS.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:44:34.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDevolucionLibroDomain.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\IDevolucionLibroDomain.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\BE.Domain.Contract\\IDevolucionLibroDomain.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\IDevolucionLibroDomain.cs",
+              "RelativeToolTip": "src\\Domain\\BE.Domain.Contract\\IDevolucionLibroDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:41:55.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPrestamoDomain.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\IPrestamoDomain.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\BE.Domain.Contract\\IPrestamoDomain.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\IPrestamoDomain.cs",
+              "RelativeToolTip": "src\\Domain\\BE.Domain.Contract\\IPrestamoDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:41:52.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDevolucionLibroRepository.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\IDevolucionLibroRepository.cs",
+              "RelativeDocumentMoniker": "src\\Repository\\BE.Repository.Contract\\IDevolucionLibroRepository.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\IDevolucionLibroRepository.cs",
+              "RelativeToolTip": "src\\Repository\\BE.Repository.Contract\\IDevolucionLibroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:41:37.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPrestamoRepository.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\IPrestamoRepository.cs",
+              "RelativeDocumentMoniker": "src\\Repository\\BE.Repository.Contract\\IPrestamoRepository.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\IPrestamoRepository.cs",
+              "RelativeToolTip": "src\\Repository\\BE.Repository.Contract\\IPrestamoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:41:29.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PrestamoDomain.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain\\PrestamoDomain.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\BE.Domain\\PrestamoDomain.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain\\PrestamoDomain.cs",
+              "RelativeToolTip": "src\\Domain\\BE.Domain\\PrestamoDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:40:47.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PrestamoRepository.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\PrestamoRepository.cs",
+              "RelativeDocumentMoniker": "src\\Repository\\BE.Repository\\PrestamoRepository.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\PrestamoRepository.cs",
+              "RelativeToolTip": "src\\Repository\\BE.Repository\\PrestamoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:40:36.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DevolucionLibroRepository.cs",
+              "DocumentMoniker": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\DevolucionLibroRepository.cs",
+              "RelativeDocumentMoniker": "src\\Repository\\BE.Repository\\DevolucionLibroRepository.cs",
+              "ToolTip": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\DevolucionLibroRepository.cs",
+              "RelativeToolTip": "src\\Repository\\BE.Repository\\DevolucionLibroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:40:29.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

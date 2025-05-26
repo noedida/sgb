@@ -1,12 +1,8 @@
-using BE.API.Security;
 using BE.Clients.Configurations;
 using BE.Domain;
 using BE.Domain.Contract;
-using BE.Domain.Contract.Security;
-using BE.Domain.Security;
 using BE.Repository;
 using BE.Repository.Contract;
-using BE.Repository.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -46,8 +42,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 // Inyeccion de dependencias - Singleton
 builder.Services.AddScoped<dbContext>();
-//builder.Services.AddScoped<ILoginDomain, LoginDomain>();
-//builder.Services.AddScoped<ILoginRepository, LoginRepository>();
+builder.Services.AddScoped<IDevolucionLibroDomain, DevolucionLibroDomain>();
+builder.Services.AddScoped<IDevolucionLibroRepository, DevolucionLibroRepository>();
+builder.Services.AddScoped<IPrestamoDomain, PrestamoDomain>();
+builder.Services.AddScoped<IPrestamoRepository, PrestamoRepository>();
 
 //builder.Services.AddScoped<GenerarTokenJwt>();
 

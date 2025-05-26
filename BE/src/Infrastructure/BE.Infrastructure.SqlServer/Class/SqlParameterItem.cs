@@ -1,12 +1,12 @@
-using System.Data;
-using System.Data.SqlClient;
+using System.Data; 
+using System.Data.SqlClient; 
 
 namespace BE.Infrastructure.SqlServer.Class
 {
     public class SqlParameterItem
     {
         public string ParameterName { get; set; }
-        public SqlDbType DataType { get; set; }
+        public SqlDbType DataType { get; set; } 
         public int Length { get; set; }
         public byte Precision { get; set; }
         public byte Scale { get; set; }
@@ -14,7 +14,7 @@ namespace BE.Infrastructure.SqlServer.Class
         public object Value { get; set; }
 
         // Constructor para parámetros de entrada
-        public SqlParameterItem(string parameterName, SqlDbType dataType, object value)
+        public SqlParameterItem(string parameterName, SqlDbType dataType, object value) 
         {
             ParameterName = parameterName;
             DataType = dataType;
@@ -26,7 +26,7 @@ namespace BE.Infrastructure.SqlServer.Class
         }
 
         // Constructor más completo para todo tipo de parámetros
-        public SqlParameterItem(string parameterName, SqlDbType dataType, int length, byte precision, byte scale, ParameterDirection direction, object value)
+        public SqlParameterItem(string parameterName, SqlDbType dataType, int length, byte precision, byte scale, ParameterDirection direction, object value) 
         {
             ParameterName = parameterName;
             DataType = dataType;

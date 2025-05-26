@@ -9,14 +9,17 @@ namespace BE.API.Controllers
             public const string Autenticacion = "Autenticacion";
         }*/
 
-        public class UriUsuario
+        public class UriDevolucionLibro
         {
-            public const string Prefijo = "api/usuario";
-            public const string ListaTodos = "lista";
-            public const string ListaUno = "listauno";
-            public const string Grabar = "grabar";
-            public const string Editar = "editar";
-            public const string Eliminar = "eliminar";
+            public const string Prefijo = "api/devolucionlibro";
+            public const string DevolucionLibro = "devolucionlibro";
+        }
+
+        public class UriPrestamoLibro
+        {
+            public const string Prefijo = "api/prestamolibro";
+            public const string AprobacionPrestamoLibro = "aprobacionprestamolibro";
+            public const string SolicitudPrestamoLibro = "solicitudprestamolibro";
         }
 
     }

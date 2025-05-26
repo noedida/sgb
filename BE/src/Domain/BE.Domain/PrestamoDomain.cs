@@ -1,9 +1,5 @@
-using BE.Domain;
 using BE.Domain.Contract;
-using BE.Infrastructure.SqlServer.Functions;
 using BE.Models.Request;
-using BE.Models.Response;
-using BE.Repository;
 using BE.Repository.Contract;
 
 namespace BE.Domain
@@ -20,6 +16,13 @@ namespace BE.Domain
         {
             bool respuesta = false;
             respuesta = _prestamoRepository.AprobarPrestamo(oAprobacionPrestamoRequest);
+            return respuesta;
+        }
+
+        public bool RegistrarSolicitudPrestamo(SolicitudPrestamoRequest oSolicitudPrestamoRequest)
+        {
+            bool respuesta = false;
+            respuesta = _prestamoRepository.RegistrarSolicitudPrestamo(oSolicitudPrestamoRequest);
             return respuesta;
         }
 

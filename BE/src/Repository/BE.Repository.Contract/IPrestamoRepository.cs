@@ -7,7 +7,7 @@ namespace BE.Repository.Contract
     {
         bool AprobarPrestamo(AprobacionPrestamoRequest oAprobacionPrestamoRequest);
 
-        bool RegistrarSolicitudPrestamo(SolicitudPrestamoRequest oSolicitudPrestamoRequest)
+        bool RegistrarSolicitudPrestamo(SolicitudPrestamoRequest oSolicitudPrestamoRequest);
     }
 }
 

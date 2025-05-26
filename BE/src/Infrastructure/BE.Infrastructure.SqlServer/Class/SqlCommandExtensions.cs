@@ -1,6 +1,5 @@
-using System;
-using System.Data;
-using Microsoft.Data.SqlClient;
+﻿using System.Data; 
+using Microsoft.Data.SqlClient; 
 
 namespace BE.Infrastructure.SqlServer.Class
 {
@@ -9,7 +8,7 @@ namespace BE.Infrastructure.SqlServer.Class
         public static void AddParameter(
             this SqlCommand command,
             string parameterName,
-            SqlDbType dataType,
+            SqlDbType dataType, 
             int length,
             byte precision,
             byte scale,
@@ -21,7 +20,7 @@ namespace BE.Infrastructure.SqlServer.Class
             parameter.Direction = direction;
             parameter.Value = value ?? DBNull.Value;
 
-            parameter.SqlDbType = dataType;
+            parameter.SqlDbType = dataType; 
 
             if (length > 0) parameter.Size = length;
             if (precision > 0) parameter.Precision = precision;
@@ -34,7 +33,7 @@ namespace BE.Infrastructure.SqlServer.Class
         public static void AddParameter(
             this SqlCommand command,
             string parameterName,
-            SqlDbType dataType,
+            SqlDbType dataType, 
             object value)
         {
             AddParameter(command, parameterName, dataType, 0, 0, 0, ParameterDirection.Input, value);

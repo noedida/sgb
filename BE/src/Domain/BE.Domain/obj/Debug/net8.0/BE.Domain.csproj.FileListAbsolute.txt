@@ -21,3 +21,4 @@ E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain\obj\Debug\ne
 E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain\obj\Debug\net8.0\refint\BE.Domain.dll
 E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain\obj\Debug\net8.0\BE.Domain.pdb
 E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain\obj\Debug\net8.0\ref\BE.Domain.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Domain\BE.Domain\obj\Debug\net8.0\BE.Domain.sourcelink.json

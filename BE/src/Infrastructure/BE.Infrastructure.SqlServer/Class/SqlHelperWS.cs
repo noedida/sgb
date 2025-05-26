@@ -23,6 +23,7 @@ namespace BE.Infrastructure.SqlServer.Class
             this.command.CommandText = storedProcedureName;
             this.command.CommandType = CommandType.StoredProcedure;
             this.command.CommandTimeout = (int)this.commadTimeOut;
+            this.command.Parameters.Clear(); // Limpia los parámetros de ejecuciones anteriores
         }
 
         private void OpenConnectionIfNeeded()
@@ -42,28 +43,30 @@ namespace BE.Infrastructure.SqlServer.Class
             }
             catch (Exception ex)
             {
+                // Considera registrar la excepción en lugar de solo relanzarla.
                 throw ex;
             }
             return sqlDataReader;
         }
 
         public SqlDataReader ExecuteReader(
-          string storedProcedureName,
-          SqlParameterItem sqlParameterItem)
+            string storedProcedureName,
+            SqlParameterItem sqlParameterItem)
         {
             if (sqlParameterItem == null)
                 throw new ArgumentNullException(nameof(sqlParameterItem));
 
             InitializeCommand(storedProcedureName);
-            this.command.AddParameter(
-                sqlParameterItem.ParameterName,
-                sqlParameterItem.DataType,
-                sqlParameterItem.Length,
-                sqlParameterItem.Precision,
-                sqlParameterItem.Scale,
-                sqlParameterItem.Direction,
-                sqlParameterItem.Value
-            );
+            // Forma correcta de añadir un parámetro
+            SqlParameter param = new SqlParameter();
+            param.ParameterName = sqlParameterItem.ParameterName;
+            param.SqlDbType = (SqlDbType)sqlParameterItem.DataType; // Asumiendo que DataType se mapea a SqlDbType
+            param.Size = sqlParameterItem.Length;
+            param.Precision = sqlParameterItem.Precision;
+            param.Scale = sqlParameterItem.Scale;
+            param.Direction = sqlParameterItem.Direction;
+            param.Value = sqlParameterItem.Value ?? DBNull.Value; // Manejar valores nulos
+            this.command.Parameters.Add(param);
 
             SqlDataReader sqlDataReader;
             try
@@ -79,8 +82,8 @@ namespace BE.Infrastructure.SqlServer.Class
         }
 
         public SqlDataReader ExecuteReader(
-          string storedProcedureName,
-          List<SqlParameterItem> sqlParameterList)
+            string storedProcedureName,
+            List<SqlParameterItem> sqlParameterList)
         {
             if (sqlParameterList == null)
                 throw new ArgumentNullException(nameof(sqlParameterList));
@@ -88,15 +91,16 @@ namespace BE.Infrastructure.SqlServer.Class
             InitializeCommand(storedProcedureName);
             foreach (SqlParameterItem sqlParameter in sqlParameterList)
             {
-                this.command.AddParameter(
-                    sqlParameter.ParameterName,
-                    sqlParameter.DataType,
-                    sqlParameter.Length,
-                    sqlParameter.Precision,
-                    sqlParameter.Scale,
-                    sqlParameter.Direction,
-                    sqlParameter.Value
-                );
+                // Forma correcta de añadir un parámetro
+                SqlParameter param = new SqlParameter();
+                param.ParameterName = sqlParameter.ParameterName;
+                param.SqlDbType = (SqlDbType)sqlParameter.DataType; // Asumiendo que DataType se mapea a SqlDbType
+                param.Size = sqlParameter.Length;
+                param.Precision = sqlParameter.Precision;
+                param.Scale = sqlParameter.Scale;
+                param.Direction = sqlParameter.Direction;
+                param.Value = sqlParameter.Value ?? DBNull.Value; // Manejar valores nulos
+                this.command.Parameters.Add(param);
             }
 
             SqlDataReader sqlDataReader;
@@ -134,15 +138,17 @@ namespace BE.Infrastructure.SqlServer.Class
                 throw new ArgumentNullException(nameof(sqlParameterItem));
 
             InitializeCommand(storedProcedureName);
-            this.command.AddParameter(
-                sqlParameterItem.ParameterName,
-                sqlParameterItem.DataType,
-                sqlParameterItem.Length,
-                sqlParameterItem.Precision,
-                sqlParameterItem.Scale,
-                sqlParameterItem.Direction,
-                sqlParameterItem.Value
-            );
+            // Forma correcta de añadir un parámetro
+            SqlParameter param = new SqlParameter();
+            param.ParameterName = sqlParameterItem.ParameterName;
+            param.SqlDbType = (SqlDbType)sqlParameterItem.DataType;
+            param.Size = sqlParameterItem.Length;
+            param.Precision = sqlParameterItem.Precision;
+            param.Scale = sqlParameterItem.Scale;
+            param.Direction = sqlParameterItem.Direction;
+            param.Value = sqlParameterItem.Value ?? DBNull.Value;
+            this.command.Parameters.Add(param);
+
             object obj;
             try
             {
@@ -164,15 +170,16 @@ namespace BE.Infrastructure.SqlServer.Class
             InitializeCommand(storedProcedureName);
             foreach (SqlParameterItem sqlParameter in sqlParameterList)
             {
-                this.command.AddParameter(
-                    sqlParameter.ParameterName,
-                    sqlParameter.DataType,
-                    sqlParameter.Length,
-                    sqlParameter.Precision,
-                    sqlParameter.Scale,
-                    sqlParameter.Direction,
-                    sqlParameter.Value
-                );
+                // Forma correcta de añadir un parámetro
+                SqlParameter param = new SqlParameter();
+                param.ParameterName = sqlParameter.ParameterName;
+                param.SqlDbType = (SqlDbType)sqlParameter.DataType;
+                param.Size = sqlParameter.Length;
+                param.Precision = sqlParameter.Precision;
+                param.Scale = sqlParameter.Scale;
+                param.Direction = sqlParameter.Direction;
+                param.Value = sqlParameter.Value ?? DBNull.Value;
+                this.command.Parameters.Add(param);
             }
             object obj;
             try
@@ -210,15 +217,17 @@ namespace BE.Infrastructure.SqlServer.Class
                 throw new ArgumentNullException(nameof(sqlParameterItem));
 
             InitializeCommand(storedProcedureName);
-            this.command.AddParameter(
-                sqlParameterItem.ParameterName,
-                sqlParameterItem.DataType,
-                sqlParameterItem.Length,
-                sqlParameterItem.Precision,
-                sqlParameterItem.Scale,
-                sqlParameterItem.Direction,
-                sqlParameterItem.Value
-            );
+            // Forma correcta de añadir un parámetro
+            SqlParameter param = new SqlParameter();
+            param.ParameterName = sqlParameterItem.ParameterName;
+            param.SqlDbType = (SqlDbType)sqlParameterItem.DataType;
+            param.Size = sqlParameterItem.Length;
+            param.Precision = sqlParameterItem.Precision;
+            param.Scale = sqlParameterItem.Scale;
+            param.Direction = sqlParameterItem.Direction;
+            param.Value = sqlParameterItem.Value ?? DBNull.Value;
+            this.command.Parameters.Add(param);
+
             bool flag;
             try
             {
@@ -241,15 +250,16 @@ namespace BE.Infrastructure.SqlServer.Class
             InitializeCommand(storedProcedureName);
             foreach (SqlParameterItem sqlParameter in sqlParameterList)
             {
-                this.command.AddParameter(
-                    sqlParameter.ParameterName,
-                    sqlParameter.DataType,
-                    sqlParameter.Length,
-                    sqlParameter.Precision,
-                    sqlParameter.Scale,
-                    sqlParameter.Direction,
-                    sqlParameter.Value
-                );
+                // Forma correcta de añadir un parámetro
+                SqlParameter param = new SqlParameter();
+                param.ParameterName = sqlParameter.ParameterName;
+                param.SqlDbType = (SqlDbType)sqlParameter.DataType;
+                param.Size = sqlParameter.Length;
+                param.Precision = sqlParameter.Precision;
+                param.Scale = sqlParameter.Scale;
+                param.Direction = sqlParameter.Direction;
+                param.Value = sqlParameter.Value ?? DBNull.Value;
+                this.command.Parameters.Add(param);
             }
             bool flag;
             try
