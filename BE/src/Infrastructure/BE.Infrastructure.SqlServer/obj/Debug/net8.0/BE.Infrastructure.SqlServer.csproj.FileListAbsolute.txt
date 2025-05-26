@@ -1,0 +1,12 @@
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\bin\Debug\net8.0\BE.Infrastructure.SqlServer.deps.json
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\bin\Debug\net8.0\BE.Infrastructure.SqlServer.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\bin\Debug\net8.0\BE.Infrastructure.SqlServer.pdb
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\obj\Debug\net8.0\BE.Infrastructure.SqlServer.csproj.AssemblyReference.cache
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\obj\Debug\net8.0\BE.Infrastructure.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\obj\Debug\net8.0\BE.Infrastructure.SqlServer.AssemblyInfoInputs.cache
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\obj\Debug\net8.0\BE.Infrastructure.SqlServer.AssemblyInfo.cs
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\obj\Debug\net8.0\BE.Infrastructure.SqlServer.csproj.CoreCompileInputs.cache
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\obj\Debug\net8.0\BE.Infrastructure.SqlServer.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\obj\Debug\net8.0\refint\BE.Infrastructure.SqlServer.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\obj\Debug\net8.0\BE.Infrastructure.SqlServer.pdb
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Infrastructure\BE.Infrastructure.SqlServer\obj\Debug\net8.0\ref\BE.Infrastructure.SqlServer.dll

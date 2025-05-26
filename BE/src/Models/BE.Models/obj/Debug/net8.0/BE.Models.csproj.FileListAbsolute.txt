@@ -1,0 +1,11 @@
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\bin\Debug\net8.0\BE.Models.deps.json
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\bin\Debug\net8.0\BE.Models.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\bin\Debug\net8.0\BE.Models.pdb
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\obj\Debug\net8.0\BE.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\obj\Debug\net8.0\BE.Models.AssemblyInfoInputs.cache
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\obj\Debug\net8.0\BE.Models.AssemblyInfo.cs
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\obj\Debug\net8.0\BE.Models.csproj.CoreCompileInputs.cache
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\obj\Debug\net8.0\BE.Models.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\obj\Debug\net8.0\refint\BE.Models.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\obj\Debug\net8.0\BE.Models.pdb
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Models\BE.Models\obj\Debug\net8.0\ref\BE.Models.dll

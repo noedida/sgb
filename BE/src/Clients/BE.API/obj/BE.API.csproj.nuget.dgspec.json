@@ -1,0 +1,574 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\BE.API.csproj": {}
+  },
+  "projects": {
+    "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\BE.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\BE.API.csproj",
+        "projectName": "BE.API",
+        "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\BE.API.csproj",
+        "packagesPath": "C:\\Users\\noedi\\.nuget\\packages\\",
+        "outputPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Clients\\BE.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\noedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj"
+              },
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain\\BE.Domain.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain\\BE.Domain.csproj"
+              },
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj"
+              },
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.11.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj",
+        "projectName": "BE.Domain.Contract",
+        "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj",
+        "packagesPath": "C:\\Users\\noedi\\.nuget\\packages\\",
+        "outputPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\noedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain\\BE.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain\\BE.Domain.csproj",
+        "projectName": "BE.Domain",
+        "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain\\BE.Domain.csproj",
+        "packagesPath": "C:\\Users\\noedi\\.nuget\\packages\\",
+        "outputPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\noedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Domain\\BE.Domain.Contract\\BE.Domain.Contract.csproj"
+              },
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj"
+              },
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj"
+              },
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\BE.Repository.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\BE.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj",
+        "projectName": "BE.Infrastructure.SqlServer",
+        "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\noedi\\.nuget\\packages\\",
+        "outputPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\noedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj",
+        "projectName": "BE.Models",
+        "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj",
+        "packagesPath": "C:\\Users\\noedi\\.nuget\\packages\\",
+        "outputPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\noedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj",
+        "projectName": "BE.Repository.Contract",
+        "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj",
+        "packagesPath": "C:\\Users\\noedi\\.nuget\\packages\\",
+        "outputPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\noedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Models\\BE.Models\\BE.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\BE.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\BE.Repository.csproj",
+        "projectName": "BE.Repository",
+        "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\BE.Repository.csproj",
+        "packagesPath": "C:\\Users\\noedi\\.nuget\\packages\\",
+        "outputPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\noedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Infrastructure\\BE.Infrastructure.SqlServer\\BE.Infrastructure.SqlServer.csproj"
+              },
+              "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj": {
+                "projectPath": "E:\\NOE\\CAS 2025\\ATLACTIC-CITY\\SG_Biblioteca\\BE\\src\\Repository\\BE.Repository.Contract\\BE.Repository.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

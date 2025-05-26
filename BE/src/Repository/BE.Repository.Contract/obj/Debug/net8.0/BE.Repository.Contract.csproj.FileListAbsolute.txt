@@ -1,0 +1,15 @@
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\bin\Debug\net8.0\BE.Repository.Contract.deps.json
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\bin\Debug\net8.0\BE.Repository.Contract.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\bin\Debug\net8.0\BE.Repository.Contract.pdb
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\bin\Debug\net8.0\BE.Models.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\bin\Debug\net8.0\BE.Models.pdb
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\BE.Repository.Contract.csproj.AssemblyReference.cache
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\BE.Repository.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\BE.Repository.Contract.AssemblyInfoInputs.cache
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\BE.Repository.Contract.AssemblyInfo.cs
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\BE.Repository.Contract.csproj.CoreCompileInputs.cache
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\BE.Repos.D4C6D48D.Up2Date
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\BE.Repository.Contract.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\refint\BE.Repository.Contract.dll
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\BE.Repository.Contract.pdb
+E:\NOE\CAS 2025\ATLACTIC-CITY\SG_Biblioteca\BE\src\Repository\BE.Repository.Contract\obj\Debug\net8.0\ref\BE.Repository.Contract.dll
